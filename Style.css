@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+
+  background: transparent;
+}
+h2{
+
+  color: #00ff50;
+  padding: 5vw;
+  margin-bottom: 0.5vw;
+  padding-left: 5vw;
+  padding-bottom: 0 ;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 1.5rem;
+  border-bottom: powderblue 0.125em  solid;
+  text-shadow: 0 0 0.125em #ffffff;
+  
+}
+
+p{
+  color: rgb(253, 253, 253);
+  font-weight: bold;
+  font-size: 1rem;
+  position: relative;
+  bottom: 1.2vh;
+  font-family: 'Lato', sans-serif;
+
+}
+
+ #main{ 
+
+     background-color: #000000; 
+     height: 100%; 
+
+ } 
+
+.oneHalf , .oneThird , .twoThird , .oneQuater , .twoQuater , .threeQuater , .twoFifth , .threeFifth , .fourFifth{
+
+  background-color: #00ff20;
+  width: 45vw;
+  height: 2vh;
+  border: #00ff20 1vh solid;
+  padding: 0.25vw;
+  box-shadow: 1vw 1vw 4vw #00ff50, 1vw 1vw 4vw #ffff ;
+  border-radius: 1vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 2vw;
+  
+ 
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-right: auto;
+
+}
+
+.oneThird {width: 33vw;}
+
+.twoThird{width: 82vw;}
+
+.oneQuater{width: 25vw;}
+
+.twoQuater{width: 68vw;}
+.threeQuater{ width: 110vw;}
+
+.twoFifth{width: 80vw ;}
+.threeFifth{width: 136vw ;}
+.fourFifth{width: 185vw ;}
